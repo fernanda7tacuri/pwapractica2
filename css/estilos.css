@@ -1,0 +1,52 @@
+/* ===== Contenedor principal ===== */
+.ej8 .contenedor-principal {
+  display: flex;
+  flex-direction: column;  /* apila header, main, footer */
+  justify-content: center; /* centra verticalmente */
+  align-items: center;     /* centra horizontalmente */
+  min-height: 100vh;       /* ocupa toda la pantalla */
+  text-align: center;
+  padding: 20px;
+}
+
+/* ===== Carrusel ===== */
+.ej8 .carrusel-container {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carrusel-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 200px;
+}
+
+.carrusel-buttons button {
+  padding: 10px 20px;
+  background-color: #a987d6;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.carrusel-buttons button:hover {
+  background-color: #8f6ec3;
+}
+
+/* ===== Botón volver ===== */
+.ej8 footer .btn-volver {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #a987d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.ej8 footer .btn-volver:hover {
+  background-color: #8f6ec3;
+}
